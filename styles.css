@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2d3945;
+    color: white;
+    font-size: small;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+#signup-info {
+    margin: 25px 10px 25px 10px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+.bold-text {
+    font-weight: bolder;
+    
+}
+.bold {
+    width: 90%;
+    margin-bottom: 5px;
+   border: solid;
+
+}
+.thin {
+    width: 90%;
+    margin-bottom: 20px;
+    border: double;
+}
+fieldset {
+    border: 0;
+}
+legend {
+    font-weight: bolder;
+    margin-left: 0;
+}
+form {
+margin-left: 10px;
+width: 90%;
+}
+.contact {
+    display: block;
+    width: 100%;
+    background-color: rgb(237, 233, 233);
+    padding: 13px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+.zipcode{
+    display: block;
+    width: 50%;
+    background-color: rgb(237, 233, 233);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+:placeholder-shown{
+    text-align: right;
+}
+
+legend {
+    padding: 10px;
+    font-size: large;
+}
+
+.news, .spacing {
+    padding: 10px 10px 10px 0px;
+}
+button{
+    display: block;
+    width: 95%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ebbb5;
+    color: white;
+    font-size: large;
+    margin: auto ;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: rgb(167, 166, 166);
+    font-style: italic;
+}
+
+/* Media Querie */
+@media screen and (min-width: 768px) {
+    div{
+        display: flex;
+        
+        
+}
+.contact {
+    width: 70%;
+    margin-left: auto;
+}
+label {
+    margin: 0;
+}
+.zipcode {
+   width: 25%; 
+}
+
+}
