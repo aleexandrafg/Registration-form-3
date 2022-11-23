@@ -3,7 +3,6 @@
     font-family: 'PT Serif', serif;
     margin: 0 auto;
 }
-
 header {
     background-color: #2d3945;
     color: white;
@@ -27,12 +26,14 @@ header {
     width: 90%;
     margin-bottom: 5px;
    border: solid;
+   margin: 10px auto;
 
 }
 .thin {
     width: 90%;
     margin-bottom: 20px;
     border: double;
+    margin: 10px auto;
 }
 fieldset {
     border: 0;
@@ -42,7 +43,7 @@ legend {
     margin-left: 0;
 }
 form {
-margin-left: 10px;
+margin: 15px auto;
 width: 90%;
 }
 .contact {
@@ -54,15 +55,10 @@ width: 90%;
     border-radius: 5px;
     border: none;
 }
-.zipcode{
-    display: block;
+#zipcode {
     width: 50%;
-    background-color: rgb(237, 233, 233);
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: none;
 }
+
 :placeholder-shown{
     text-align: right;
 }
@@ -75,6 +71,15 @@ legend {
 .news, .spacing {
     padding: 10px 10px 10px 0px;
 }
+.comments {
+    display: block;
+    width: 100%;
+    background-color: rgb(237, 233, 233);
+    padding: 13px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: none;
+} 
 button{
     display: block;
     width: 95%;
@@ -95,20 +100,16 @@ footer{
 
 /* Media Querie */
 @media screen and (min-width: 768px) {
-    div{
-        display: flex;
-        
-        
-}
-.contact {
-    width: 70%;
-    margin-left: auto;
-}
-label {
-    margin: 0;
-}
-.zipcode {
-   width: 25%; 
-}
-
+    div {
+        display: flex;  
+        }
+        .contact {
+        width: 80%;   
+        }
+        label {
+            margin-left: 0;
+        }
+        #zipcode {
+            width: 25%;
+    }
 }
