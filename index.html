@@ -25,27 +25,38 @@
                     <legend>Contact Information</legend>
                     <div>
                         <label for="name">Full Name</label>
-                        <input class="contact" type="text" id="name" name="user-name" placeholder="Required">
+                        <div class="form-control">
+                            <input class="contact" type="text" id="name" name="user-name" placeholder="Required">
+                        </div>
                     </div>
                     <div>
                         <label for="email">Email Address</label>
-                        <input class="contact"type="text" id="email" name="user-email" placeholder="Required">
+                        <div class="form-control">
+                            <input class="contact"type="text" id="email" name="user-email" placeholder="Required">
+                        </div>
                      </div>
                     <div>
                         <label for="phone">Phone Number</label>
-                        <input class="contact"type="text" id="phone" name="user-phone">
+                        <div class="form-control">
+                         <input class="contact"type="text" id="phone" name="user-phone">
+                        </div>
                     </div>
                     <div>
                         <label for="address">Street Address</label>
-                        <input class="contact"type="text" id="address" name="user-address">
+                        <div class="form-control">
+                            <input class="contact"type="text" id="address" name="user-address">
+                        </div>
                     </div>
                     <div>
                         <label for="city">City</label>
-                        <input class="contact"type="text" id="city" name="user-city">
+                        <div class="form-control">
+                            <input class="contact"type="text" id="city" name="user-city">
+                        </div>
                     </div>
                     <div>
                         <label for="state">State</label>
-                        <select class="contact" id="state" name="current-state">
+                        <div class="form-control">
+                            <select class="contact" id="state" name="current-state">
                             <option value="" disabled selected>Choose State</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -98,11 +109,14 @@
                             <option value="WV">West Virginia</option>
                             <option value="WI">Wisconsin</option>
                             <option value="WY">Wyoming</option>
-                        </select></br>
+                         </select>
+                        </div></br>
                     </div>
                     <div>
                         <label class="input-control" for="zipcode">Zip Code</label>
-                        <textarea class="contact"id="zipcode" name="user-zipcode"></textarea> 
+                        <div class="form-control">
+                         <textarea class="contact"id="zipcode" name="user-zipcode"></textarea> 
+                        </div>
                     </div>
                 </fieldset>
                     <hr>
@@ -117,8 +131,9 @@
                     <input  type="radio" id="plain-text" value="plain-format" name="format-preference"><label class="news"for="plain-format">Plain text</label></br>
                     <p class="spacing">Other topics you'd like to hear about</p>
                     <textarea class="comments" id="suggestions" name="user-suggestion"></textarea>
+                    <button type="submit">Sign Up</button>
                 </fieldset>
-                <button type="submit">Sign Up</button>
+                
 
             </form>
         </div>

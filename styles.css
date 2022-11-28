@@ -12,6 +12,9 @@ header {
     text-align: center;
     padding: 15px;
 }
+input:focus, textarea:focus {
+    outline: 3px solid;
+}
 #signup-info {
     margin: 25px 10px 25px 10px;
     text-align: center;
@@ -69,27 +72,27 @@ legend {
 }
 
 .news, .spacing {
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 10px;
 }
 .comments {
     display: block;
     width: 100%;
     background-color: rgb(237, 233, 233);
-    padding: 13px;
-    margin: 15px auto;
+    padding: 20px 0px 20px 0px;
+    margin: 0 auto;
     border-radius: 5px;
     border: none;
 } 
 button{
     display: block;
-    width: 95%;
+    width: 100%;
     padding: 15px;
     border: none;
     border-radius: 5px;
     background-color: #4ebbb5;
     color: white;
     font-size: large;
-    margin: auto ;
+    margin-top: 20px ;
 }
 footer{
     text-align: center;
@@ -104,10 +107,14 @@ footer{
         display: flex;  
         }
         .contact {
-        width: 80%;   
+        width: 100%;   
         }
         label {
             margin-left: 0;
+            width: 250px;
+        }
+        .form-control{
+            width: 100%;
         }
         #zipcode {
             width: 25%;
